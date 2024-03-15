@@ -60,6 +60,8 @@ df['weathersit_name'] = df['weathersit'].map({1: 'Cerah/Clear',
 st.subheader('Informasi Dataset')
 st.write(df.head())
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 # Visualisasi dan Analisis Data
 st.header('Visualisasi dan Analisis Data')
 
